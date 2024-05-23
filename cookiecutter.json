@@ -1,0 +1,8 @@
+{
+  "project_name":"django_project",
+  "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
+
+  "postgres_db_name": "db_name",
+  "postgres_user": "user",
+  "postgres_password": "password"
+}
