@@ -1,4 +1,4 @@
-## simple template to create django rest framework applications
+## simple template to create django rest framework projects
 
 # Use this Template
 ```bash
