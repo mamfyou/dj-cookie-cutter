@@ -133,9 +133,9 @@ INTERNAL_IPS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-from config.cache import *
-from config.celery import *
-from config.cors_cookie import *
-from config.jwt import *
-from config.rest_framework import *
-from config.statics_media import *
+from .config.cache import *
+from .config.celery import *
+from .config.cors_cookie import *
+from .config.jwt import *
+from .config.rest_framework import *
+from .config.statics_media import *
