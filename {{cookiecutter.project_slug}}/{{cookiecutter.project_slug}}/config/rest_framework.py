@@ -11,7 +11,6 @@ REST_FRAMEWORK = {
         'rest_framework.throttling.AnonRateThrottle',
         'rest_framework.throttling.UserRateThrottle',
     ),
-    'EXCEPTION_HANDLER': '{{cookiecutter.project_slug}}.exceptions.custom_exception_handler',
     'DEFAULT_THROTTLE_RATES': {
         'anon': f'250/minute',
         'user': f'250/minute'
