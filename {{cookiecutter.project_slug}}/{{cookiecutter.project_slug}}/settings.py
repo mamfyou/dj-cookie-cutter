@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django_select2',
     'debug_toolbar',
     'corsheaders',
+    'drf_yasg',
 
     # local apps
     'styles',
