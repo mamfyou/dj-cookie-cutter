@@ -9,7 +9,10 @@ class MainPagination(PageNumberPagination):
     def get_page_size(self, request):
         if self.page_size_query_param:
             choices = self.choices
-            page_size = int(request.query_params.get(self.page_size_query_param, 10))
+            try:
+                page_size = int(request.query_params.get(self.page_size_query_param, 10))
+            except ValueError:
+                page_size = 10
             if page_size not in choices:
                 page_size = 10
             return page_size
