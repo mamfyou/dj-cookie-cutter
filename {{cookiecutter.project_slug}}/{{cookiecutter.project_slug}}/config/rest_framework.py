@@ -12,8 +12,12 @@ REST_FRAMEWORK = {
         'rest_framework.throttling.UserRateThrottle',
     ),
     'DEFAULT_THROTTLE_RATES': {
-        'anon': f'250/minute',
-        'user': f'250/minute'
+        'anon': '250/minute',
+        'user': '250/minute'
+    },
+    'DEFAULT_DAILY_SMS_RATE': {
+        'anon': 10,
+        'user': 5
     }
 
 }
