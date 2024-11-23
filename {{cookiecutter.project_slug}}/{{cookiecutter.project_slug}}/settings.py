@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'django_filters',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
-    'django_select2',
     'debug_toolbar',
     'corsheaders',
     'drf_yasg',
