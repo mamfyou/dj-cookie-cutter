@@ -5,7 +5,7 @@ import django
 from django.apps import apps
 from django.conf import settings
 
-project_name = "pedarbozorg"
+project_name = '{{cookiecutter.project_slug}}'
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', f'{project_name}.settings')
